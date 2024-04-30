@@ -29,7 +29,7 @@ for i in range(300):
 # 신발사이즈()
 exit()  
 
-이하 내용은 GPT 가 수정해줌.
+# 이하 내용은 GPT 가 수정했으나, 오류남.
 import tensorflow as tf
 
 a = tf.Variable(0.1)  
