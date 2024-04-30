@@ -22,6 +22,16 @@ import tensorflow as tf
 # 1.데이터 불러오기
 data = pd.read_csv('D:/dev_D/DeepLearning/input/gpascore.csv')
 data.fillna(data.mean(), inplace = True)
+''' 데이터 검토 명령어들... '''
+# df = pd.read_csv('D:/dev_D/DeepLearning/input/gpascore.csv')
+# print(df.head())
+# print(df[:10])
+# print(df.isnull().sum())
+# # exit()
+# df.fillna(df.mean(), inplace = True)
+# print(df)
+# # exit()
+# print(df.isnull().sum())
 
 # 2.X데이터와 y데이터 분리
 y데이타 = data['admit'].values

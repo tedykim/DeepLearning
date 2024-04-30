@@ -17,7 +17,16 @@ data = pd.read_csv('D:/dev_D/DeepLearning/input/gpascore.csv')
 # print(data.isnull().sum())
 data = data.dropna()
 # print(data['gre'].count())
-# exit()
+# exit()  데이터 검토하는 명령어들...
+# df = pd.read_csv('D:/dev_D/DeepLearning/input/gpascore.csv')
+# print(df.head())
+# print(df[:10])
+# print(df.isnull().sum())
+# # exit()
+# df.fillna(df.mean(), inplace = True)
+# print(df)
+# # exit()
+# print(df.isnull().sum())
 
 ''' [ [380,3.21,3], [660,3.67.3], [800,4,1],[],[] ...] gre,gpa,rank를 리스트로 정리하고
     [ 0, 1, 1 ... ]   admit 도 리스트로(어레이타입)으로 정리해야함. '''
