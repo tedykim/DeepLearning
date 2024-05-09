@@ -25,10 +25,11 @@ data.fillna(data.mean(), inplace = True)
 ''' 데이터 검토 명령어들... '''
 # df = pd.read_csv('D:/dev_D/DeepLearning/input/gpascore.csv')
 # print(df.head())
-# print(df[:10])
-# print(df[-1:])
-# print(df.shape)
-# print(df.isnull().sum())
+# print(df[:10]) 첨부터 10개
+# print(df[-1:])  끝에서 1개
+# print(df.shape) 행열 갯수 출력
+# print(df.columns) , 컬럼명 출력
+# print(df.isnull().sum()), 컬럼값중에 null인 행의 갯수
 # # exit()
 # df.fillna(df.mean(), inplace = True)
 # print(df)
