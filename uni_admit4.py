@@ -9,7 +9,7 @@ import numpy as np
 import tensorflow as tf
 import pandas as pd
 
-df = pd.read_csv('D:/dev_D/DeepLearning/input/gpascore.csv')
+df = pd.read_csv('input/gpascore.csv')
 # print(df.head())
 print(df.isnull().sum())
 # exit()
