@@ -30,6 +30,7 @@ data.fillna(data.mean(), inplace = True)
 # print(df.shape) 행열 갯수 출력
 # print(df.columns) , 컬럼명 출력
 # print(df.isnull().sum()), 컬럼값중에 null인 행의 갯수
+# data[data.isnull().any(axis=1)] 컬럼 값에 null이 있는 행을 출력
 # # exit()
 # df.fillna(df.mean(), inplace = True)
 # print(df)
