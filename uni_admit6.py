@@ -24,7 +24,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(24,activation = 'tanh'),
     tf.keras.layers.Dense(1,activation = 'sigmoid'),
 ])
-model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = 'accuracy' )
+model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'] )
 
 # 4.모델 fit
 
